@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Ezagor_height_and_weight_abstract_bmi_calculator_abstract_b8f6d691-685b-473e-b00a-ea13463a1a32.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Ezagor_height_and_weight_abstract_bmi_calculator_abstract_b8f6d691-685b-473e-b00a-ea13463a1a32@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Ezagor_height_and_weight_abstract_bmi_calculator_abstract_b8f6d691-685b-473e-b00a-ea13463a1a32@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
