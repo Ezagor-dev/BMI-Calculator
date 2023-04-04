@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Lri-vx-oLc">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -185,6 +185,9 @@
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="calculateButton:" destination="Lri-vx-oLc" eventType="touchUpInside" id="4Uk-At-MQh"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -202,6 +205,11 @@
                             <constraint firstItem="r83-Ms-AFX" firstAttribute="top" secondItem="i5I-0E-nha" secondAttribute="top" id="x1j-c7-jdG"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="heightLabel" destination="cKo-AE-Hvo" id="MdH-Q9-4jk"/>
+                        <outlet property="label" destination="Rfj-iJ-GJ4" id="Jc0-CU-w8I"/>
+                        <outlet property="weightLabel" destination="LbH-21-BFz" id="yBA-Wi-LJ4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OLG-u4-JEm" sceneMemberID="firstResponder"/>
             </objects>
