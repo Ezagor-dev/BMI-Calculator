@@ -207,8 +207,10 @@
                     </view>
                     <connections>
                         <outlet property="heightLabel" destination="cKo-AE-Hvo" id="MdH-Q9-4jk"/>
+                        <outlet property="heightSlider" destination="aLE-xW-gkP" id="Hzc-Ua-b1H"/>
                         <outlet property="label" destination="Rfj-iJ-GJ4" id="Jc0-CU-w8I"/>
                         <outlet property="weightLabel" destination="LbH-21-BFz" id="yBA-Wi-LJ4"/>
+                        <outlet property="weightSlider" destination="cmV-8d-ug2" id="hfF-Hw-RNY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OLG-u4-JEm" sceneMemberID="firstResponder"/>
